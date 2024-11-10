@@ -27,6 +27,7 @@ body {
   color: aliceblue;
   width: 30%;
   text-align: center;
+  padding: 10px;
 }
 
 .profile-picture {
@@ -78,8 +79,243 @@ button {
   cursor: pointer;
   margin-top: 5px;
   font-size: 15px;
+  padding: 10px 20px;
 }
 
 button:hover {
   background-color: #e5d9bd;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    padding: 50px 10px;
+  }
+
+  .resume-container {
+    flex-direction: row;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .left-section,
+  .right-section {
+    width: 50%;
+    text-align: center;
+  }
+
+  .profile-picture {
+    width: 70%;
+    margin-bottom: 15px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  button {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .grid {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    padding: 20px;
+  }
+
+  .resume-container {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  button {
+    font-size: 12px;
+  }
+
+  .left-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .right-section {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 786px) {
+  body {
+    padding: 30px 10px;
+  }
+
+  body {
+    margin: 0px;
+    padding: 15px;
+  }
+
+  #objective {
+    margin: -10px;
+  }
+
+  #certifications {
+    margin: -10px;
+  }
+
+  #personal-Info {
+    margin: -10px;
+  }
+
+  #eduction {
+    margin: -10px;
+  }
+
+  #skills {
+    margin: -10px;
+  }
+
+  #work-experience {
+    margin: 3px;
+  }
+
+  .resume-container {
+    width: 100%;
+    padding: 15px;
+    flex-direction: row;
+  }
+
+  .left-section,
+  .right-section {
+    text-align: center;
+  }
+
+  .right-section {
+    text-align: center;
+    padding-bottom: 1px;
+    width: 65%;
+  }
+
+  .left-section {
+    width: 35%;
+  }
+
+  .profile-picture {
+    width: 100%;
+    margin-bottom: 1px;
+  }
+
+  .rightsection h1 {
+    font-size: 15px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  ul li {
+    font-size: 10px;
+  }
+
+  button {
+    width: 100px;
+    font-size: 10px;
+  }
+
+  #toggle-skills {
+    padding: 2px 6px;
+    margin: 30px;
+  }
+
+  .grid {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  body {
+    padding: 100px;
+  }
+
+  .resume-container {
+    width: 70%;
+    padding: 30px;
+    flex-direction: row;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  button {
+    font-size: 16px;
+  }
+
+  .left-section {
+    width: 30%;
+    text-align: center;
+  }
+
+  .right-section {
+    width: 65%;
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  body {
+    padding: 150px;
+  }
+
+  .resume-container {
+    width: 60%;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  button {
+    font-size: 18px;
+  }
 }
